@@ -7,10 +7,10 @@
       "mtime": "2022-11-23 20:49:11"
     },
     "outMatrix": {
-      "fname": "html/mouseE9.5Spatial/exprMatrix.tsv.gz",
+      "fname": "/Users/zlu/Downloads/cellBrowser_html/mouseE9.5Spatial/exprMatrix.tsv.gz",
       "md5": "3df67121bc",
       "size": 9927345,
-      "mtime": "2022-11-23 23:08:16"
+      "mtime": "2022-11-23 23:01:46"
     },
     "inMeta": {
       "fname": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/meta.tsv",
@@ -19,22 +19,22 @@
       "mtime": "2022-11-23 21:01:22"
     },
     "outMeta": {
-      "fname": "html/mouseE9.5Spatial/meta.tsv",
+      "fname": "/Users/zlu/Downloads/cellBrowser_html/mouseE9.5Spatial/meta.tsv",
       "md5": "edba86bf5d",
       "size": 32835,
-      "mtime": "2022-11-23 23:10:26"
+      "mtime": "2022-11-23 23:22:24"
     },
     "desc": {
       "fname": "desc.conf",
-      "md5": "2e425b06fa",
+      "md5": "d36c751ab0",
       "size": 2556,
       "mtime": "2022-11-23 23:10:21"
     },
     "conf": {
       "fname": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/cellbrowser.conf",
-      "md5": "a040094d52",
-      "size": 2745,
-      "mtime": "2022-11-23 22:50:46"
+      "md5": "c156585cd7",
+      "size": 2744,
+      "mtime": "2022-11-23 23:21:46"
     }
   },
   "matrixArrType": "Float32",
@@ -47,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 8,
       "diffValCount": 1483,
-      "md5": "a26d85b398"
+      "md5": "6ff871f91e"
     },
     {
       "name": "nCount_SCT",
@@ -55,7 +55,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 860,
-      "md5": "9bba7ba092"
+      "md5": "c39680e583"
     },
     {
       "name": "nFeature_SCT",
@@ -63,7 +63,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 1162,
-      "md5": "5725b72748"
+      "md5": "57809efebe"
     },
     {
       "name": "seurat_clusters",
@@ -129,7 +129,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 14,
-      "md5": "129fab7864"
+      "md5": "a806074236"
     }
   ],
   "labelField": "seurat_clusters",
@@ -273,13 +273,16 @@
   ],
   "clusterField": "seurat_clusters",
   "showLabels": true,
-  "firstBuildTime": "2022-11-24T00:08:29.935610",
-  "lastBuildTime": "2022-11-24T00:10:26.589753",
+  "body_parts": [
+    "embryo"
+  ],
+  "firstBuildTime": "2022-11-24T00:01:58.938834",
+  "lastBuildTime": "2022-11-24T00:22:24.417147",
   "parents": [
     [
       "",
       "Datasets for Cell Browser"
     ]
   ],
-  "md5": "045620c2a5"
+  "md5": "27762d0c37"
 }

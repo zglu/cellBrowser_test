@@ -1,0 +1,13 @@
+{
+  "title": "Demo single-cell data",
+  "abstract": "Abstract",
+  "methods": "Methods",
+  "custom": {
+    "sample barcode": "1231-HH22"
+  },
+  "inDir": "",
+  "coordFiles": [
+    "tMinusSNE_on_WGCNA.coords.tsv.gz"
+  ],
+  "matrixFile": "/Users/zlu/Downloads/cellBrowser_html/mini/exprMatrix.tsv.gz"
+}

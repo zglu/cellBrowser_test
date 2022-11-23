@@ -6,17 +6,35 @@
     {
       "shortLabel": "Mouse E9.5 Spatial data",
       "name": "mouseE9.5Spatial",
-      "md5": "045620c2a5",
+      "md5": "27762d0c37",
       "tags": [
         "Stereo-seq"
       ],
       "hasFiles": [
         "datasetDesc"
       ],
+      "body_parts": [
+        "embryo"
+      ],
       "sampleCount": 1483
+    },
+    {
+      "shortLabel": "CellBrowser 100-genes demo",
+      "name": "mini",
+      "md5": "63b0662f0d",
+      "tags": [
+        "smartseq2"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "body_parts": [
+        "brain"
+      ],
+      "sampleCount": 4261
     }
   ],
-  "md5": "c85f2ba05a",
+  "md5": "fd6af03f48",
   "fileVersions": {
     "desc": {
       "fname": "/Users/zlu/spatial/cellbrowser/desc.conf",

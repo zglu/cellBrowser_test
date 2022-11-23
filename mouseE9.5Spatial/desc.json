@@ -9,5 +9,5 @@
   "coordFiles": [
     "Spatial_coord.coords.tsv.gz"
   ],
-  "matrixFile": "html/mouseE9.5Spatial/exprMatrix.tsv.gz"
+  "matrixFile": "/Users/zlu/Downloads/cellBrowser_html/mouseE9.5Spatial/exprMatrix.tsv.gz"
 }
