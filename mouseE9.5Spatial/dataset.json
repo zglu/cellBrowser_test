@@ -1,288 +1,31 @@
 {
+  "shortLabel": "Datasets for Cell Browser",
+  "inDir": "/Users/zlu/spatial/cellbrowser",
+  "name": "",
+  "datasets": [
+    {
+      "shortLabel": "Mouse E9.5 Spatial data",
+      "name": "mouseE9.5Spatial",
+      "md5": "045620c2a5",
+      "tags": [
+        "Stereo-seq"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 1483
+    }
+  ],
+  "md5": "c85f2ba05a",
   "fileVersions": {
-    "inMatrix": {
-      "fname": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/exprMatrix.tsv.gz",
-      "md5": "3df67121bc",
-      "size": 9927345,
-      "mtime": "2022-11-23 20:49:11"
-    },
-    "outMatrix": {
-      "fname": "/Users/zlu/Downloads/cellBrowser_html/mouseE9.5Spatial/exprMatrix.tsv.gz",
-      "md5": "3df67121bc",
-      "size": 9927345,
-      "mtime": "2022-11-23 23:01:46"
-    },
-    "inMeta": {
-      "fname": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/meta.tsv",
-      "md5": "f9eb769a1a",
-      "size": 32857,
-      "mtime": "2022-11-23 21:01:22"
-    },
-    "outMeta": {
-      "fname": "/Users/zlu/Downloads/cellBrowser_html/mouseE9.5Spatial/meta.tsv",
-      "md5": "edba86bf5d",
-      "size": 32835,
-      "mtime": "2022-11-23 23:22:24"
-    },
     "desc": {
-      "fname": "desc.conf",
-      "md5": "d36c751ab0",
-      "size": 2556,
-      "mtime": "2022-11-23 23:10:21"
-    },
-    "conf": {
-      "fname": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/cellbrowser.conf",
-      "md5": "c156585cd7",
-      "size": 2744,
-      "mtime": "2022-11-23 23:21:46"
+      "fname": "/Users/zlu/spatial/cellbrowser/desc.conf",
+      "md5": "2cd2fc7d06",
+      "size": 2562,
+      "mtime": "2022-11-23 22:55:36"
     }
   },
-  "matrixArrType": "Float32",
-  "sampleCount": 1483,
-  "matrixWasFiltered": false,
-  "metaFields": [
-    {
-      "name": "cell",
-      "label": "cell",
-      "type": "uniqueString",
-      "maxSize": 8,
-      "diffValCount": 1483,
-      "md5": "6ff871f91e"
-    },
-    {
-      "name": "nCount_SCT",
-      "label": "nCount_SCT",
-      "arrType": "float32",
-      "type": "int",
-      "diffValCount": 860,
-      "md5": "c39680e583"
-    },
-    {
-      "name": "nFeature_SCT",
-      "label": "nFeature_SCT",
-      "arrType": "float32",
-      "type": "int",
-      "diffValCount": 1162,
-      "md5": "57809efebe"
-    },
-    {
-      "name": "seurat_clusters",
-      "label": "seurat_clusters",
-      "type": "enum",
-      "valCounts": [
-        [
-          "0",
-          172
-        ],
-        [
-          "1",
-          152
-        ],
-        [
-          "2",
-          145
-        ],
-        [
-          "3",
-          144
-        ],
-        [
-          "4",
-          140
-        ],
-        [
-          "5",
-          136
-        ],
-        [
-          "6",
-          123
-        ],
-        [
-          "7",
-          117
-        ],
-        [
-          "8",
-          112
-        ],
-        [
-          "9",
-          78
-        ],
-        [
-          "10",
-          55
-        ],
-        [
-          "11",
-          52
-        ],
-        [
-          "12",
-          39
-        ],
-        [
-          "13",
-          18
-        ]
-      ],
-      "arrType": "Uint8",
-      "diffValCount": 14,
-      "md5": "a806074236"
-    }
-  ],
-  "labelField": "seurat_clusters",
-  "coords": [
-    {
-      "name": "coords_0",
-      "shortLabel": "Spatial coord",
-      "md5": "630e60f110",
-      "minX": 34,
-      "maxX": 65535,
-      "minY": 34,
-      "maxY": 65535,
-      "type": "Uint16",
-      "textFname": "Spatial_coord.coords.tsv.gz",
-      "labelMd5": "d41d8cd98f"
-    }
-  ],
   "hasFiles": [
     "datasetDesc"
-  ],
-  "topMarkers": {
-    "1": [
-      "Zfand6",
-      "Ube2j2",
-      "Rpl10a",
-      "Sec13",
-      "Gatad1"
-    ],
-    "2": [
-      "Peg3",
-      "Foxf1",
-      "Foxp1",
-      "Hlx",
-      "Tshz2"
-    ],
-    "3": [
-      "Gm10076",
-      "Rps21",
-      "Rpl41",
-      "Gm10073",
-      "Rimklb"
-    ],
-    "4": [
-      "Cxcl12",
-      "Meox11",
-      "Peak1",
-      "Gpc6",
-      "Peg31"
-    ],
-    "5": [
-      "Prrx1",
-      "Tpm4",
-      "Gm19951",
-      "Actb",
-      "Zfp943"
-    ],
-    "6": [
-      "Nlrp4e",
-      "Krt8",
-      "Postn",
-      "Ahnak",
-      "Sparc"
-    ],
-    "7": [
-      "Myl7",
-      "Myh6",
-      "Ttn",
-      "Actc1",
-      "Tnnt2"
-    ],
-    "8": [
-      "Lhx2",
-      "Cdh2",
-      "Dek",
-      "Psip1",
-      "Id4"
-    ],
-    "9": [
-      "Hoxb9",
-      "Ckb",
-      "Ccnd2",
-      "Map1b",
-      "Trp53i11"
-    ],
-    "10": [
-      "Tmsb4x",
-      "Dbx1",
-      "Id3",
-      "Tuba1a",
-      "Crabp1"
-    ],
-    "11": [
-      "Tcf7l2",
-      "Nr2f1",
-      "Psip11",
-      "Sox2",
-      "Pax61"
-    ],
-    "12": [
-      "Asxl3",
-      "Hba-a2",
-      "Hba-a1",
-      "Mt1",
-      "Car2"
-    ],
-    "13": [
-      "Cdx2",
-      "Prdm1",
-      "Cldn6",
-      "Kif26b",
-      "Camk1d"
-    ]
-  },
-  "markers": [
-    {
-      "name": "markers_0",
-      "shortLabel": "Cluster-specific markers"
-    }
-  ],
-  "quickGenes": [
-    [
-      "Hypk"
-    ],
-    [
-      "Peg3"
-    ],
-    [
-      "Gm10076"
-    ],
-    [
-      "Tnnt2"
-    ]
-  ],
-  "name": "mouseE9.5Spatial",
-  "shortLabel": "Mouse E9.5 Spatial data",
-  "radius": 5,
-  "alpha": 0.3,
-  "priority": 8,
-  "tags": [
-    "Stereo-seq"
-  ],
-  "clusterField": "seurat_clusters",
-  "showLabels": true,
-  "body_parts": [
-    "embryo"
-  ],
-  "firstBuildTime": "2022-11-24T00:01:58.938834",
-  "lastBuildTime": "2022-11-24T00:22:24.417147",
-  "parents": [
-    [
-      "",
-      "Datasets for Cell Browser"
-    ]
-  ],
-  "md5": "27762d0c37"
+  ]
 }

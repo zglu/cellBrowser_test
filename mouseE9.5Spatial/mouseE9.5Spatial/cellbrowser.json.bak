@@ -1,0 +1,33 @@
+{
+  "name": "mouseE9.5Spatial",
+  "priority": 8,
+  "tags": [
+    "Stereo-seq"
+  ],
+  "shortLabel": "Mouse E9.5 Spatial data",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "geneIdType": "symbol",
+  "meta": "meta.tsv",
+  "enumFields": [
+    "c1_cell_id"
+  ],
+  "coords": [
+    {
+      "file": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/spatial.coords.tsv",
+      "shortLabel": "Spatial coord"
+    }
+  ],
+  "clusterField": "seurat_clusters",
+  "labelField": "seurat_clusters",
+  "markers": [
+    {
+      "file": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/markers.tsv",
+      "shortLabel": "Cluster-specific markers"
+    }
+  ],
+  "showLabels": true,
+  "radius": 5,
+  "alpha": 0.3,
+  "quickGenesFile": "quickGenes.csv",
+  "inDir": ""
+}

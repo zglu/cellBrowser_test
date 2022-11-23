@@ -1,13 +1,6 @@
 {
-  "title": "Mouse E9.5 Spatial Data",
+  "title": "Single-cell and Spatial Data",
   "abstract": "Mouse embryo spatial transcriptomics data\nusing stereo-seq.\n",
   "methods": "\nPlease edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf\n",
-  "custom": {
-    "sample barcode": "1231-HH11"
-  },
-  "inDir": "",
-  "coordFiles": [
-    "Spatial_coord.coords.tsv.gz"
-  ],
-  "matrixFile": "/Users/zlu/Downloads/cellBrowser_html/mouseE9.5Spatial/exprMatrix.tsv.gz"
+  "inDir": "/Users/zlu/spatial/cellbrowser"
 }
