@@ -1,0 +1,6 @@
+{
+  "title": "Single-cell and Spatial Data",
+  "abstract": "Mouse embryo spatial transcriptomics data\nusing stereo-seq.\n",
+  "methods": "\nPlease edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf\n",
+  "inDir": "/Users/zlu/spatial/cellbrowser"
+}
