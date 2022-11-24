@@ -1,0 +1,11 @@
+{
+  "title": "Mouse Brain Visium Data",
+  "abstract": "V1_Mouse_Brain_Sagittal_Posterior_Section_2.",
+  "methods": "Visium v1",
+  "hideDownload": true,
+  "inDir": "",
+  "coordFiles": [
+    "Spatial_coord.coords.tsv.gz"
+  ],
+  "matrixFile": "html/mouseBrain_Visium/exprMatrix.tsv.gz"
+}

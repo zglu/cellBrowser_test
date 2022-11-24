@@ -1,0 +1,330 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/meta.tsv",
+      "md5": "ef4e2fd79f",
+      "size": 156678,
+      "mtime": "2022-11-24 10:35:53"
+    },
+    "outMeta": {
+      "fname": "html/mouseBrain_Visium/meta.tsv",
+      "md5": "d5b86d171b",
+      "size": 156629,
+      "mtime": "2022-11-24 10:36:20"
+    },
+    "inMatrix": {
+      "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/exprMatrix.tsv.gz",
+      "md5": "f4a9e7f4c0",
+      "size": 15561878,
+      "mtime": "2022-11-24 10:07:50"
+    },
+    "outMatrix": {
+      "fname": "html/mouseBrain_Visium/exprMatrix.tsv.gz",
+      "md5": "f4a9e7f4c0",
+      "size": 15561878,
+      "mtime": "2022-11-24 10:36:20"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "9e35ec046d",
+      "size": 2476,
+      "mtime": "2022-11-24 10:13:10"
+    },
+    "conf": {
+      "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/cellbrowser.conf",
+      "md5": "d4e5b1c0e4",
+      "size": 2756,
+      "mtime": "2022-11-24 10:10:34"
+    }
+  },
+  "sampleCount": 3192,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 3192,
+      "md5": "1427da87fb"
+    },
+    {
+      "name": "nCount_SCT",
+      "label": "nCount_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 1650,
+      "md5": "6476cf78bf"
+    },
+    {
+      "name": "nFeature_SCT",
+      "label": "nFeature_SCT",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 1991,
+      "md5": "02507fec20"
+    },
+    {
+      "name": "percentmt",
+      "label": "percent.mt",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 3190,
+      "md5": "4b5a969b4d"
+    },
+    {
+      "name": "seurat_clusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          414
+        ],
+        [
+          "1",
+          403
+        ],
+        [
+          "2",
+          301
+        ],
+        [
+          "3",
+          282
+        ],
+        [
+          "4",
+          227
+        ],
+        [
+          "5",
+          210
+        ],
+        [
+          "6",
+          210
+        ],
+        [
+          "7",
+          195
+        ],
+        [
+          "8",
+          191
+        ],
+        [
+          "9",
+          160
+        ],
+        [
+          "10",
+          140
+        ],
+        [
+          "11",
+          129
+        ],
+        [
+          "12",
+          113
+        ],
+        [
+          "13",
+          74
+        ],
+        [
+          "14",
+          70
+        ],
+        [
+          "15",
+          43
+        ],
+        [
+          "16",
+          30
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 17,
+      "md5": "c534657877"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "seurat_clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Spatial coord",
+      "md5": "c334a94151",
+      "minX": 34,
+      "maxX": 65535,
+      "minY": 34,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Spatial_coord.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "Slc6a11",
+      "Agt",
+      "Sparc",
+      "Qdpr",
+      "Mbp"
+    ],
+    "1": [
+      "Fth1",
+      "Plp1",
+      "Trf",
+      "Mbp",
+      "Mobp"
+    ],
+    "2": [
+      "Vamp1",
+      "Nefl",
+      "Nefm",
+      "Nefh",
+      "Cplx1"
+    ],
+    "3": [
+      "Pcp2",
+      "Sbk1",
+      "Itpr1",
+      "Gng13",
+      "Pvalb"
+    ],
+    "4": [
+      "Cpne7",
+      "Crym",
+      "Nnat",
+      "Ly6h",
+      "Snca"
+    ],
+    "5": [
+      "Atp1a1",
+      "Cbln3",
+      "Nrep",
+      "Gabra6",
+      "Chn2"
+    ],
+    "6": [
+      "Slc1a2",
+      "mt-Nd5",
+      "Ddn",
+      "Pantr1",
+      "Cnih2"
+    ],
+    "7": [
+      "Prkcd",
+      "Pdp1",
+      "Tnnt1",
+      "Adarb1",
+      "Amotl1"
+    ],
+    "8": [
+      "Camk2n1",
+      "Camk2a",
+      "Mef2c",
+      "Stx1a",
+      "Fbxl16"
+    ],
+    "9": [
+      "Vxn",
+      "1110008P14Rik",
+      "Ccl27a",
+      "Dkk3",
+      "Basp1"
+    ],
+    "10": [
+      "Lypd1",
+      "Nptxr",
+      "Rtn1",
+      "Pgrmc1",
+      "Ly6h"
+    ],
+    "11": [
+      "Calb1",
+      "Car8",
+      "Dner",
+      "Nsg1",
+      "Ywhah"
+    ],
+    "12": [
+      "Igf2",
+      "Igfbp2",
+      "Ptgds",
+      "Rbp1",
+      "Mgp"
+    ],
+    "13": [
+      "Ncdn",
+      "Ptk2b",
+      "Olfm1",
+      "Ppp3ca",
+      "Cnih2"
+    ],
+    "14": [
+      "Mal",
+      "Mobp",
+      "Qdpr",
+      "Cryab",
+      "Cldn11"
+    ],
+    "15": [
+      "6330403K07Rik",
+      "Baiap3",
+      "Hap1",
+      "Zcchc12",
+      "Ndn"
+    ],
+    "16": [
+      "Dkk3",
+      "Tshz2",
+      "Nrgn",
+      "Pou3f1",
+      "Cck"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster-specific markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "Slc6a11"
+    ],
+    [
+      "Fth1"
+    ],
+    [
+      "Vamp1"
+    ],
+    [
+      "Pcp2"
+    ]
+  ],
+  "name": "mouseBrain_Visium",
+  "shortLabel": "Mouse_Brain_Sagittal_Posterior_Visium",
+  "radius": 5,
+  "alpha": 0.3,
+  "priority": 8,
+  "tags": [
+    "Visium_v1"
+  ],
+  "clusterField": "seurat_clusters",
+  "showLabels": true,
+  "body_parts": [
+    "brain"
+  ],
+  "firstBuildTime": "2022-11-24T11:36:43.295880",
+  "lastBuildTime": "2022-11-24T11:36:43.295902",
+  "md5": "783518c335"
+}

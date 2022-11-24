@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "Mouse brain sagittal posterior data using Visium",
+  "datasets": [
+    {
+      "shortLabel": "Mouse_Brain_Sagittal_Posterior_Visium",
+      "name": "mouseBrain_Visium",
+      "md5": "783518c335",
+      "tags": [
+        "Visium_v1"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "body_parts": [
+        "brain"
+      ],
+      "sampleCount": 3192
+    }
+  ]
+}
