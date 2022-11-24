@@ -1,6 +1,6 @@
 {
   "title": "Mouse E9.5 Spatial Data",
-  "abstract": "Mouse embryo spatial transcriptomics data\nusing stereo-seq.\n",
+  "abstract": "Mouse embryo spatial transcriptomics data using stereo-seq. This is the bin100 data for demo purpose.",
   "methods": "Stereo-seq enables high-definition spatially resolved transcriptomics with large field of view",
   "paper_url": "https://www.cell.com/cell/fulltext/S0092-8674(22)00399-3 Chen et al, Cell 2022",
   "institution": "BGI-Research",
