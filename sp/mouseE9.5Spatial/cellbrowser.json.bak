@@ -4,7 +4,10 @@
   "tags": [
     "Stereo-seq"
   ],
-  "shortLabel": "Mouse E9.5 Spatial data",
+  "body_parts": [
+    "embryo"
+  ],
+  "shortLabel": "Mouse E9.5 embryo Stereo-seq data",
   "exprMatrix": "exprMatrix.tsv.gz",
   "geneIdType": "symbol",
   "meta": "meta.tsv",

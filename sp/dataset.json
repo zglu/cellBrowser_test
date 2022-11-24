@@ -1,31 +1,22 @@
 {
-  "shortLabel": "Datasets for Cell Browser",
-  "inDir": "/Users/zlu/spatial/cellbrowser",
   "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        ",
   "datasets": [
     {
-      "shortLabel": "Mouse E9.5 Spatial data",
+      "shortLabel": "Mouse E9.5 embryo Stereo-seq data",
       "name": "mouseE9.5Spatial",
-      "md5": "045620c2a5",
+      "md5": "e78d244ba1",
       "tags": [
         "Stereo-seq"
       ],
       "hasFiles": [
         "datasetDesc"
       ],
+      "body_parts": [
+        "embryo"
+      ],
       "sampleCount": 1483
     }
-  ],
-  "md5": "c85f2ba05a",
-  "fileVersions": {
-    "desc": {
-      "fname": "/Users/zlu/spatial/cellbrowser/desc.conf",
-      "md5": "2cd2fc7d06",
-      "size": 2562,
-      "mtime": "2022-11-23 22:55:36"
-    }
-  },
-  "hasFiles": [
-    "datasetDesc"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "Demo single-cell data",
-  "abstract": "Abstract",
-  "methods": "Methods",
+  "abstract": "Demo Abstract",
+  "methods": "Demo Methods",
   "custom": {
     "sample barcode": "1231-HH22"
   },

@@ -1,10 +1,11 @@
 {
   "title": "Mouse E9.5 Spatial Data",
   "abstract": "Mouse embryo spatial transcriptomics data\nusing stereo-seq.\n",
-  "methods": "\nPlease edit desc.conf to change this text or comment out the methods= line and create methods.html in the same directory as desc.conf\n",
-  "custom": {
-    "sample barcode": "1231-HH11"
-  },
+  "methods": "Stereo-seq enables high-definition spatially resolved transcriptomics with large field of view",
+  "paper_url": "https://www.cell.com/cell/fulltext/S0092-8674(22)00399-3 Chen et al, Cell 2022",
+  "institution": "BGI-Research",
+  "body_part": "embryo",
+  "hideDownload": true,
   "inDir": "",
   "coordFiles": [
     "Spatial_coord.coords.tsv.gz"

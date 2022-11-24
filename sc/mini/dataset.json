@@ -1,17 +1,5 @@
 {
   "fileVersions": {
-    "inMeta": {
-      "fname": "/Users/zlu/spatial/cellbrowser/mini/meta.tsv",
-      "md5": "b4cb4026ee",
-      "size": 181579,
-      "mtime": "2018-07-24 12:08:46"
-    },
-    "outMeta": {
-      "fname": "html/mini/meta.tsv",
-      "md5": "eac72360a0",
-      "size": 177317,
-      "mtime": "2022-11-23 23:38:18"
-    },
     "inMatrix": {
       "fname": "/Users/zlu/spatial/cellbrowser/mini/exprMatrix.tsv.gz",
       "md5": "1fa8171953",
@@ -24,19 +12,32 @@
       "size": 164000,
       "mtime": "2022-11-23 23:38:19"
     },
+    "inMeta": {
+      "fname": "/Users/zlu/spatial/cellbrowser/mini/meta.tsv",
+      "md5": "b4cb4026ee",
+      "size": 181579,
+      "mtime": "2018-07-24 12:08:46"
+    },
+    "outMeta": {
+      "fname": "html/mini/meta.tsv",
+      "md5": "eac72360a0",
+      "size": 177317,
+      "mtime": "2022-11-24 05:40:48"
+    },
     "desc": {
       "fname": "desc.conf",
-      "md5": "405574dd74",
-      "size": 2364,
-      "mtime": "2022-11-23 22:54:46"
+      "md5": "80089747e5",
+      "size": 2425,
+      "mtime": "2022-11-24 05:37:35"
     },
     "conf": {
       "fname": "/Users/zlu/spatial/cellbrowser/mini/cellbrowser.conf",
-      "md5": "414c2f675b",
-      "size": 2726,
-      "mtime": "2022-11-23 23:21:23"
+      "md5": "5c23ab01a5",
+      "size": 2723,
+      "mtime": "2022-11-24 05:40:19"
     }
   },
+  "matrixArrType": "Float32",
   "sampleCount": 4261,
   "matrixWasFiltered": true,
   "metaFields": [
@@ -46,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 21,
       "diffValCount": 4261,
-      "md5": "4d020971f0"
+      "md5": "81ab926a94"
     },
     {
       "name": "WGCNAcluster",
@@ -298,7 +299,7 @@
         "Mural",
         "Choroid Plexus"
       ],
-      "md5": "7bafd2245c"
+      "md5": "fe23021aa5"
     },
     {
       "name": "Name",
@@ -500,7 +501,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 48,
-      "md5": "f8190d86cc"
+      "md5": "e62b68b378"
     },
     {
       "name": "Age",
@@ -508,7 +509,7 @@
       "arrType": "float32",
       "type": "float",
       "diffValCount": 29,
-      "md5": "652b9b5af2"
+      "md5": "862dd4b434"
     },
     {
       "name": "RegionName",
@@ -540,7 +541,7 @@
         "Presumptive_cortex",
         "Choroid Plexus"
       ],
-      "md5": "abc5a7dcc4"
+      "md5": "e1920f9abc"
     },
     {
       "name": "Laminae",
@@ -578,7 +579,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 7,
-      "md5": "9689744739"
+      "md5": "4c0439ee5e"
     },
     {
       "name": "Area",
@@ -616,10 +617,9 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 7,
-      "md5": "399133a886"
+      "md5": "d2bdbe54fa"
     }
   ],
-  "matrixArrType": "Float32",
   "labelField": "WGCNAcluster",
   "coords": [
     {
@@ -1003,12 +1003,6 @@
     "brain"
   ],
   "firstBuildTime": "2022-11-24T00:38:21.599540",
-  "lastBuildTime": "2022-11-24T00:38:21.599564",
-  "parents": [
-    [
-      "",
-      "Datasets for Cell Browser"
-    ]
-  ],
-  "md5": "61af77fb3b"
+  "lastBuildTime": "2022-11-24T06:40:50.367546",
+  "md5": "cea9b49bd8"
 }

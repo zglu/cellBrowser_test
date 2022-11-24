@@ -1,12 +1,12 @@
 {
-  "shortLabel": "Datasets for Cell Browser",
-  "inDir": "/Users/zlu/spatial/cellbrowser",
   "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        ",
   "datasets": [
     {
       "shortLabel": "CellBrowser 100-genes demo",
       "name": "mini",
-      "md5": "61af77fb3b",
+      "md5": "cea9b49bd8",
       "tags": [
         "smartseq2"
       ],
@@ -18,17 +18,5 @@
       ],
       "sampleCount": 4261
     }
-  ],
-  "md5": "b749e419d1",
-  "fileVersions": {
-    "desc": {
-      "fname": "/Users/zlu/spatial/cellbrowser/desc.conf",
-      "md5": "2cd2fc7d06",
-      "size": 2562,
-      "mtime": "2022-11-23 22:55:36"
-    }
-  },
-  "hasFiles": [
-    "datasetDesc"
   ]
 }
