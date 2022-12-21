@@ -1,12 +1,12 @@
 {
   "name": "",
   "shortLabel": "All Datasets",
-  "abstract": "Mouse brain sagittal posterior data using Visium",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        ",
   "datasets": [
     {
       "shortLabel": "Mouse_Brain_Sagittal_Posterior_Visium",
       "name": "mouseBrain_Visium",
-      "md5": "783518c335",
+      "md5": "9987e49166",
       "tags": [
         "Visium_v1"
       ],

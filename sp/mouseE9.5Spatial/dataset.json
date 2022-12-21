@@ -22,19 +22,19 @@
       "fname": "html/mouseE9.5Spatial/meta.tsv",
       "md5": "edba86bf5d",
       "size": 32835,
-      "mtime": "2022-11-24 05:45:37"
+      "mtime": "2022-12-21 14:07:31"
     },
     "desc": {
       "fname": "desc.conf",
-      "md5": "59c14414f7",
-      "size": 2579,
-      "mtime": "2022-11-24 05:36:31"
+      "md5": "f1b66e9aa2",
+      "size": 2616,
+      "mtime": "2022-11-24 06:33:17"
     },
     "conf": {
       "fname": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/cellbrowser.conf",
-      "md5": "bcbc294fe3",
-      "size": 2753,
-      "mtime": "2022-11-24 05:40:45"
+      "md5": "41c1a8d7c8",
+      "size": 2806,
+      "mtime": "2022-12-21 14:03:38"
     }
   },
   "matrixArrType": "Float32",
@@ -47,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 8,
       "diffValCount": 1483,
-      "md5": "87c2c0f12d"
+      "md5": "b545db76c4"
     },
     {
       "name": "nCount_SCT",
@@ -55,7 +55,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 860,
-      "md5": "e9660a5951"
+      "md5": "a96ba50e3d"
     },
     {
       "name": "nFeature_SCT",
@@ -63,7 +63,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 1162,
-      "md5": "10148454dc"
+      "md5": "5403983a51"
     },
     {
       "name": "seurat_clusters",
@@ -129,7 +129,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 14,
-      "md5": "ffdc2ff0b5"
+      "md5": "7bf0a08df2"
     }
   ],
   "labelField": "seurat_clusters",
@@ -144,6 +144,18 @@
       "maxY": 65535,
       "type": "Uint16",
       "textFname": "Spatial_coord.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "UMAP",
+      "md5": "f97920c516",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "UMAP.coords.tsv.gz",
       "labelMd5": "d41d8cd98f"
     }
   ],
@@ -277,6 +289,6 @@
     "embryo"
   ],
   "firstBuildTime": "2022-11-24T00:08:29.935610",
-  "lastBuildTime": "2022-11-24T06:45:37.416833",
-  "md5": "e78d244ba1"
+  "lastBuildTime": "2022-12-21T15:07:31.571961",
+  "md5": "d9a2024531"
 }

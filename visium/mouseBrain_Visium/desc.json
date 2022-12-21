@@ -5,7 +5,8 @@
   "hideDownload": true,
   "inDir": "",
   "coordFiles": [
-    "Spatial_coord.coords.tsv.gz"
+    "Spatial_coord.coords.tsv.gz",
+    "UMAP.coords.tsv.gz"
   ],
   "matrixFile": "html/mouseBrain_Visium/exprMatrix.tsv.gz"
 }

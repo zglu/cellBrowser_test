@@ -8,7 +8,8 @@
   "hideDownload": true,
   "inDir": "",
   "coordFiles": [
-    "Spatial_coord.coords.tsv.gz"
+    "Spatial_coord.coords.tsv.gz",
+    "UMAP.coords.tsv.gz"
   ],
   "matrixFile": "html/mouseE9.5Spatial/exprMatrix.tsv.gz"
 }

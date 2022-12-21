@@ -3,3 +3,4 @@ meta.tsv
 dataset.json
 desc.json
 Spatial_coord.coords.tsv.gz
+UMAP.coords.tsv.gz

@@ -1,17 +1,5 @@
 {
   "fileVersions": {
-    "inMeta": {
-      "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/meta.tsv",
-      "md5": "ef4e2fd79f",
-      "size": 156678,
-      "mtime": "2022-11-24 10:35:53"
-    },
-    "outMeta": {
-      "fname": "html/mouseBrain_Visium/meta.tsv",
-      "md5": "d5b86d171b",
-      "size": 156629,
-      "mtime": "2022-11-24 10:36:20"
-    },
     "inMatrix": {
       "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/exprMatrix.tsv.gz",
       "md5": "f4a9e7f4c0",
@@ -24,19 +12,32 @@
       "size": 15561878,
       "mtime": "2022-11-24 10:36:20"
     },
+    "inMeta": {
+      "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/meta.tsv",
+      "md5": "ef4e2fd79f",
+      "size": 156678,
+      "mtime": "2022-11-24 10:35:53"
+    },
+    "outMeta": {
+      "fname": "html/mouseBrain_Visium/meta.tsv",
+      "md5": "d5b86d171b",
+      "size": 156629,
+      "mtime": "2022-12-21 14:15:10"
+    },
     "desc": {
       "fname": "desc.conf",
-      "md5": "9e35ec046d",
+      "md5": "25d986d259",
       "size": 2476,
       "mtime": "2022-11-24 10:13:10"
     },
     "conf": {
       "fname": "/Users/zlu/spatial/cellbrowser/brainVisium/cellbrowser.conf",
-      "md5": "d4e5b1c0e4",
-      "size": 2756,
-      "mtime": "2022-11-24 10:10:34"
+      "md5": "c6af4484ce",
+      "size": 2809,
+      "mtime": "2022-12-21 14:12:22"
     }
   },
+  "matrixArrType": "Float32",
   "sampleCount": 3192,
   "matrixWasFiltered": false,
   "metaFields": [
@@ -46,7 +47,7 @@
       "type": "uniqueString",
       "maxSize": 18,
       "diffValCount": 3192,
-      "md5": "1427da87fb"
+      "md5": "6ad5440fd9"
     },
     {
       "name": "nCount_SCT",
@@ -54,7 +55,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 1650,
-      "md5": "6476cf78bf"
+      "md5": "d21e1f6730"
     },
     {
       "name": "nFeature_SCT",
@@ -62,7 +63,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 1991,
-      "md5": "02507fec20"
+      "md5": "5a68ef0f3e"
     },
     {
       "name": "percentmt",
@@ -70,7 +71,7 @@
       "arrType": "float32",
       "type": "float",
       "diffValCount": 3190,
-      "md5": "4b5a969b4d"
+      "md5": "5f11ea3c6c"
     },
     {
       "name": "seurat_clusters",
@@ -148,10 +149,9 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 17,
-      "md5": "c534657877"
+      "md5": "80fe1436eb"
     }
   ],
-  "matrixArrType": "Float32",
   "labelField": "seurat_clusters",
   "coords": [
     {
@@ -164,6 +164,18 @@
       "maxY": 65535,
       "type": "Uint16",
       "textFname": "Spatial_coord.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "UMAP",
+      "md5": "e201f05315",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65534,
+      "type": "Uint16",
+      "textFname": "UMAP.coords.tsv.gz",
       "labelMd5": "d41d8cd98f"
     }
   ],
@@ -325,6 +337,6 @@
     "brain"
   ],
   "firstBuildTime": "2022-11-24T11:36:43.295880",
-  "lastBuildTime": "2022-11-24T11:36:43.295902",
-  "md5": "783518c335"
+  "lastBuildTime": "2022-12-21T15:15:11.384817",
+  "md5": "9987e49166"
 }

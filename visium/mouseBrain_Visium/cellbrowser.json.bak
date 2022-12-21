@@ -18,6 +18,10 @@
     {
       "file": "/Users/zlu/spatial/cellbrowser/brainVisium/spatial.coords.tsv",
       "shortLabel": "Spatial coord"
+    },
+    {
+      "file": "/Users/zlu/spatial/cellbrowser/brainVisium/umap.coords.tsv",
+      "shortLabel": "UMAP"
     }
   ],
   "clusterField": "seurat_clusters",

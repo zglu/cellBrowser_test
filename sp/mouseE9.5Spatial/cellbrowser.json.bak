@@ -18,6 +18,10 @@
     {
       "file": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/spatial.coords.tsv",
       "shortLabel": "Spatial coord"
+    },
+    {
+      "file": "/Users/zlu/spatial/cellbrowser/mouseE9.5Spatial/umap.coords.tsv",
+      "shortLabel": "UMAP"
     }
   ],
   "clusterField": "seurat_clusters",
